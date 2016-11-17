@@ -16,7 +16,7 @@
 			<span> title</span>
 		</div>
 		<div id="bigImg">
-			<span>big image</span>
+			<img src="images/ipadbig.jpg"></img>
 		</div>
 		<div id="pricing">
 			<h3 style="color: red"> 4799</h3>
@@ -36,10 +36,11 @@
 				<p>payments</p>
 				<li>
 					<select>
-						<option>1</option>
-						<option>2</option>
-						<option>3</option>
-						<option>4</option>
+						<?php 
+							for ($i=1; $i < 13; $i++) { 
+								echo "<option>" . $i . "</option>";
+							}
+						 ?>
 					</select>
 				</li>
 			</ul>
