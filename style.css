@@ -14,7 +14,7 @@
 }
 
 #top {
-	height: 500px;
+	height: 250px;
 }
 
 .ontop {
@@ -25,4 +25,15 @@
 
 #left {
 	background: white;
+}
+
+#right {
+	background: yellow;
+	padding: 10px;
+}
+
+.rightchild {
+	background: yellowgreen;
+	height: 40px;
+	margin: 20px;
 }

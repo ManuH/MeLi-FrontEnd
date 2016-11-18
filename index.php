@@ -9,16 +9,21 @@
 	<link rel="stylesheet" href="chico/dist/ui/chico.min.css" />
 	<script src="https://ui.mlstatic.com/chico/tiny/0.2.3/tiny.min.js"></script>
 	<script src="dist/ui/chico.min.js"></script>
-//	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 	<div class= "outter">
 		<div class= "inner" id= "title" >PRODUCT TITLE </div>	
 		<div class= "inner" id= "top" >
 			<div class = "ontop" id="left"> 
-				<img href="images/ipad1.jpg"> </img>
+				<img src="images/ipadbig.jpg"></img>
 			</div>
-			<div class = "ontop" id="right"> RIGHT</div>
+			<div class = "ontop" id="right"> RIGHT
+				<div class = "right child" > ONE </div>
+				<div class = "right child" > TWO </div>
+				<div class = "right child" >  DREI </div>
+				<div class = "right child" > VIER </div>
+			</div>
 		</div>	
 		<div class= "inner" id= "bottom" > DESCRIPTION AND COMMENTS </div>	
 	</div>	
