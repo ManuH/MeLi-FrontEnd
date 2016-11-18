@@ -2,12 +2,15 @@
   background-color: #006677;
   font-size: 15px; }
 
+.upper {
+  width: 500px; }
+
 .upper .left {
   float: left;
   width: 50%; }
 
 .upper .right {
-  float: right;
+  float: left;
   width: 50%; }
 
 .slider {
@@ -16,4 +19,20 @@
 
 .lower {
   position: absolute;
+  top: 50%;
   bottom: 0; }
+
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: auto; /* will contain if #first is longer than #second */
+}
+#first {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#second {
+    border: 1px solid green;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}

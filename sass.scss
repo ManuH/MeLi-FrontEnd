@@ -6,7 +6,8 @@ $size : 15px;
 	font-size: $size;
 }
 .upper {
-
+	width: 500px
+	
 }
 
 .upper .left {
@@ -15,7 +16,7 @@ $size : 15px;
 }
 
 .upper .right {
-	float: right;
+	float: left;
 	width: 50%;
 }
 

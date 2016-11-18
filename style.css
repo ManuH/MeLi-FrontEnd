@@ -1,42 +1,28 @@
-#productTitle {
-	background-color: yellow;
-	width: 300px;
-	border: 25px solid green;
-	padding: 25px;
-	margin: 25px;
+.outter {
+	background: #999;
+	padding: 10px;
 }
-#bigImg {
-	background-color: white;
-	width: 300px;
-	border: 25px solid green;
-	padding: 25px;
-	margin: 25px;
+
+.inner {
+	background: #ccc;
+	height: 200px;
+/*	margin: 20px; */
 }
-#pricing {
-	background-color: white;
-	width: 300px;
-	border: 25px solid green;
-	padding: 25px;
-	margin: 25px;
+
+#title {
+	height: 30px;
 }
-#billing {
-	background-color: white;
-	width: 300px;
-	border: 25px solid green;
-	padding: 25px;
-	margin: 25px;
+
+#top {
+	height: 500px;
 }
-#btn-msg {
-	background-color: white;
-	width: 300px;
-	border: 25px solid green;
-	padding: 25px;
-	margin: 25px;
+
+.ontop {
+	float: left;
+	background: green;
+	margin: 20px;
 }
-#slider {
-	background-color: white;
-	width: 300px;
-	border: 25px solid green;
-	padding: 25px;
-	margin: 25px;
+
+#left {
+	background: white;
 }
