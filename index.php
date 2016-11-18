@@ -23,7 +23,7 @@
 				<div class = "rightchild" id = "lilform" > 
 					<table id= "billing">
 						<tr> 
-							<td>Quantity</td>
+							<td>Quantity </td>
 							<td>
 								<select>
 									<option>1</option>
@@ -33,7 +33,7 @@
 							</td>
 						</tr>
 						<tr> 
-							<td>Payments</td>
+							<td>Payments </td>
 							<td>
 								<select>
 									<option>1</option>
@@ -44,7 +44,10 @@
 						</tr>
 					</table>
 				</div>
-				<div class = "rightchild" >  DREI </div>
+				<div class = "rightchild" id="button" > 
+					<input type="button" class="ch-btn" value="Button">
+					<dd>MercadoLibre isn't the owner of this product</dd>
+				</div>
 				<div class = "rightchild" > VIER </div>
 			</div>
 		</div>	
