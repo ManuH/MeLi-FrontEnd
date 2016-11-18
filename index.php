@@ -18,11 +18,34 @@
 			<div class = "ontop" id="left"> 
 				<img src="images/ipadbig.jpg"></img>
 			</div>
-			<div class = "ontop" id="right"> RIGHT
-				<div class = "right child" > ONE </div>
-				<div class = "right child" > TWO </div>
-				<div class = "right child" >  DREI </div>
-				<div class = "right child" > VIER </div>
+			<div class = "ontop" id="right">
+				<div class = "rightchild" id= "price" > ONE </div>
+				<div class = "rightchild" id = "lilform" > 
+					<table id= "billing">
+						<tr> 
+							<td>Quantity</td>
+							<td>
+								<select>
+									<option>1</option>
+									<option>1</option>
+									<option>1</option>
+								</select>
+							</td>
+						</tr>
+						<tr> 
+							<td>Payments</td>
+							<td>
+								<select>
+									<option>1</option>
+									<option>1</option>
+									<option>1</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class = "rightchild" >  DREI </div>
+				<div class = "rightchild" > VIER </div>
 			</div>
 		</div>	
 		<div class= "inner" id= "bottom" > DESCRIPTION AND COMMENTS </div>	

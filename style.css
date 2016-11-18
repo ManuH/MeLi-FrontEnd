@@ -14,7 +14,7 @@
 }
 
 #top {
-	height: 250px;
+	height: 400px;
 }
 
 .ontop {
@@ -33,7 +33,11 @@
 }
 
 .rightchild {
-	background: yellowgreen;
+	background: darkorange;
 	height: 40px;
-	margin: 20px;
+	margin: 2px;
+}
+
+#lilform {
+	display: inline;
 }
