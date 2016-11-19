@@ -9,19 +9,22 @@
 	<link rel="stylesheet" href="chico/dist/ui/chico.min.css" />
 	<script src="https://ui.mlstatic.com/chico/tiny/0.2.3/tiny.min.js"></script>
 	<script src="dist/ui/chico.min.js"></script>
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="sass.css" />
 	<script src="javascript.js"></script>
 </head>
 <body>
+
+<div class="container">
+
 	<div class= "outter">
-		<div class= "inner" id= "title" ><h1>Ipad Mini Apple 16 GB Wifi Led 7.9<h1></div>	
-		<div class= "inner" id= "top" >
+		<div class= "inner" id="title"><h1 id="producttitle">Ipad Mini Apple 16 GB Wifi Led 7.9<h1></div>	
+		<div class= "inner" id="top">
 			<div class = "ontop" id="left"> 
-				<img src="images/ipadbig.jpg" id="bigimg"></img>
+				<img src="images/ipadmini3.jpg" id="bigimg"></img>
 			</div>
 			<div class = "ontop" id="right">
 				<div class = "rightchild" id= "price" > 
-					<h1>$ 4799<sup>99</sup></h1> 				
+					<h1 class="price">$ 4799<sup>99</sup></h1> 				
 				</div>
 				<div class = "rightchild" id = "lilform" > 
 					<table id= "billing">
@@ -52,11 +55,11 @@
 					</table>
 				</div>
 				<div class = "rightchild" id="button" > 
-					<input type="button" class="ch-btn" value="Button">
-					<dd>MercadoLibre isn't the owner of this product</dd>
+					<input type="button" class="ch-btn" value="Buy">
+					<dd style= "color: grey">MercadoLibre isn't the owner of this product</dd>
 				</div>
 				<div class= "rightchild" id="slider">
-					<p>More products like this</p>
+					<h4>More products like this</h4>
 					<div class="demo-carousel ch-carousel">
 						<ul>
 							<li><img src="images/ipad1.jpg" class="sliderimg"></li>
@@ -73,6 +76,10 @@
 				</div>					
 			</div>
 		</div>	
+
+<div class="line"></div>
+
+
 		<div class= "inner" id= "bottom" >  
 			<div class="demo-tabs ch-tabs">
 				<ul class="ch-tabs-triggers">
@@ -101,5 +108,8 @@
 				</div>		
 			</div>			
 		</div>	
+	</div>
+</div>
+
 </body>
 </html>

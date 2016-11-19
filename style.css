@@ -31,7 +31,6 @@
 }
 
 .rightchild {
-/*	background: darkorange; */
 	height: 40px;
 	margin: 2px;
 	padding: 5px;
@@ -46,7 +45,6 @@
 }
 
 #rightchild {
-/*	background: darkorange; */
 	height: 40px;
 	margin: 2px;
 }
