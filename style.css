@@ -1,77 +1,70 @@
 .outter {
-	padding: 10px;
-}
+  padding: 10px;
+  width: 800px;
+  margin: 0 auto; }
 
 .inner {
-	height: 200px;
-}
+  height: 200px; }
 
 #title {
-	height: 30px;
-}
+  height: 30px; }
+
+#producttitle {
+  font-size: 40px; }
 
 #top {
-	height: 400px;
-}
+  height: 400px; }
 
 .ontop {
-	float: left;
-	margin: 20px;
-}
+  float: left;
+  margin: 20px; }
 
 #left {
-	width: 30%;
-	height: 90%
-}
+  width: 30%;
+  height: 90%; }
 
 #right {
-	padding: 10px;
-	height: 85%;
-	width: 40%;
-}
+  padding: 10px;
+  height: 85%;
+  width: 57%; }
 
 .rightchild {
-	height: 40px;
-	margin: 2px;
-	padding: 5px;
-}
+  height: 40px;
+  margin: 2px;
+  padding: 5px; }
 
 #lilform {
-	display: inline;
-}
+  display: inline; }
 
 #button {
-	height: 50px;
-}
+  height: 50px; }
 
 #rightchild {
-	height: 40px;
-	margin: 2px;
-}
+  height: 40px;
+  margin: 2px; }
 
 #bigimg {
-	min-height: 100%;
-	min-width: 100%;
-	max-width: 100%;
-	max-height: 100%;
-}
+  width: 100%; }
 
-#price {
-	color: firebrick;
-}
+.line {
+  border-bottom: 1px solid #ddd;
+  margin: 20px 15px; }
+
+.price {
+  color: firebrick;
+  font-weight: bold; }
 
 sup {
-    vertical-align: super;
-    font-size: smaller;
-}
+  vertical-align: super;
+  font-size: smaller; }
 
 #description {
-	overflow: hidden;
-}
+  overflow: hidden; }
 
 .sliderimg {
-	height: 100px;
-    width: 100px;
-	margin: 2px;
-	
-}
+  height: 100px;
+  width: 100px;
+  margin: 2px; }
+
+.price {
+  font-weight: bold; }
