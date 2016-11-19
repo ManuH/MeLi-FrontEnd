@@ -1,10 +1,8 @@
 .outter {
-	background: #999;
 	padding: 10px;
 }
 
 .inner {
-	background: #ccc;
 	height: 200px;
 }
 
@@ -18,27 +16,25 @@
 
 .ontop {
 	float: left;
-	background: green;
 	margin: 20px;
 }
 
 #left {
-	background: white;
 	width: 30%;
 	height: 90%
 }
 
 #right {
-	background: yellow;
 	padding: 10px;
 	height: 85%;
 	width: 40%;
 }
 
 .rightchild {
-	background: darkorange;
+/*	background: darkorange; */
 	height: 40px;
 	margin: 2px;
+	padding: 5px;
 }
 
 #lilform {
@@ -50,7 +46,7 @@
 }
 
 #rightchild {
-	background: darkorange;
+/*	background: darkorange; */
 	height: 40px;
 	margin: 2px;
 }
@@ -69,4 +65,15 @@
 sup {
     vertical-align: super;
     font-size: smaller;
+}
+
+#description {
+	overflow: hidden;
+}
+
+.sliderimg {
+	height: 100px;
+    width: 100px;
+	margin: 2px;
+	
 }

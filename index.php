@@ -14,7 +14,7 @@
 </head>
 <body>
 	<div class= "outter">
-		<div class= "inner" id= "title" >PRODUCT TITLE </div>	
+		<div class= "inner" id= "title" ><h1>Ipad Mini Apple 16 GB Wifi Led 7.9<h1></div>	
 		<div class= "inner" id= "top" >
 			<div class = "ontop" id="left"> 
 				<img src="images/ipadbig.jpg" id="bigimg"></img>
@@ -29,9 +29,11 @@
 							<td>Quantity </td>
 							<td>
 								<select>
-									<option>1</option>
-									<option>1</option>
-									<option>1</option>
+									<?php
+										for ($i = 1; $i <11; $i++) {
+											echo "<option>" . $i . "</option>";
+										}
+									?>
 								</select>
 							</td>
 						</tr>
@@ -39,9 +41,11 @@
 							<td>Payments </td>
 							<td>
 								<select>
-									<option>1</option>
-									<option>1</option>
-									<option>1</option>
+									<?php
+										for ($i = 1; $i <13; $i++) {
+											echo "<option>" . $i . "</option>";
+										}
+									?>
 								</select>
 							</td>
 						</tr>
@@ -51,16 +55,22 @@
 					<input type="button" class="ch-btn" value="Button">
 					<dd>MercadoLibre isn't the owner of this product</dd>
 				</div>
-				<div class="demo-carousel ch-carousel">
-					<ul>
-						<li><img src="ipad1.jpg"></li>
-						<li><img src="ipad2.jpg"></li>
-						<li><img src="ipad3.jpg"></li>
-						<li><img src="ipad4.jpg"></li>
-						<script src="javascript.js"></script>
-						<script src="chico/dist/ui/chico.min.js"></script>
-					</ul>
-				</div>
+				<div class= "rightchild" id="slider">
+					<p>More products like this</p>
+					<div class="demo-carousel ch-carousel">
+						<ul>
+							<li><img src="images/ipad1.jpg" class="sliderimg"></li>
+							<li><img src="images/ipad2.jpg" class="sliderimg"></li>
+							<li><img src="images/ipad3.jpg" class="sliderimg"></li>
+							<li><img src="images/ipad4.jpg" class="sliderimg"></li>
+							<li><img src="images/ipad5.jpg" class="sliderimg"></li>
+							<li><img src="images/ipad6.jpg" class="sliderimg"></li>
+							<li><img src="images/ipad7.jpg" class="sliderimg"></li>
+							<li><img src="images/ipad8.jpg" class="sliderimg"></li>
+							<li><img src="images/ipad9.jpg" class="sliderimg"></li>
+						</ul>
+					</div>
+				</div>					
 			</div>
 		</div>	
 		<div class= "inner" id= "bottom" >  
