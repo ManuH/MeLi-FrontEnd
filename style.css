@@ -45,3 +45,9 @@
 #button {
 	height: 50px;
 }
+
+#rightchild {
+	background: darkorange;
+	height: 40px;
+	margin: 2px;
+}
