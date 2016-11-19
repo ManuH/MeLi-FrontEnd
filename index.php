@@ -17,10 +17,12 @@
 		<div class= "inner" id= "title" >PRODUCT TITLE </div>	
 		<div class= "inner" id= "top" >
 			<div class = "ontop" id="left"> 
-				<img src="images/ipadbig.jpg"></img>
+				<img src="images/ipadbig.jpg" id="bigimg"></img>
 			</div>
 			<div class = "ontop" id="right">
-				<div class = "rightchild" id= "price" > ONE </div>
+				<div class = "rightchild" id= "price" > 
+					<h1>$ 4799<sup>99</sup></h1> 				
+				</div>
 				<div class = "rightchild" id = "lilform" > 
 					<table id= "billing">
 						<tr> 
