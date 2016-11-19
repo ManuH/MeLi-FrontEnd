@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="chico/dist/ui/chico.min.css" />
 	<script src="https://ui.mlstatic.com/chico/tiny/0.2.3/tiny.min.js"></script>
 	<script src="dist/ui/chico.min.js"></script>
-	<link rel="stylesheet" href="sass.css" />
+	<link rel="stylesheet" href="style.css" />
 	<script src="javascript.js"></script>
 </head>
 <body>
