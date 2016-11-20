@@ -32,16 +32,9 @@
 							<td>Quantity </td>
 							<td>
 								<select id="quantity">
+									<script src="scripts.min.js"></script>
 									<script>
-										var select, i, option;
-
-										select = document.getElementById( 'quantity' );
-
-										for ( i = 1; i <= 10; i += 1 ) {
-											option = document.createElement( 'option' );
-											option.value = option.text = i;
-											select.add( option );
-										};
+										makeOptions('quantity');
 									</script>
 								</select>
 							</td>
@@ -50,16 +43,9 @@
 							<td>Payments </td>
 							<td>
 								<select id="payments">
+									<script src="scripts.min.js"></script>
 									<script>
-										var select, i, option;
-
-										select = document.getElementById( 'payments' );
-
-										for ( i = 1; i <= 12; i += 1 ) {
-											option = document.createElement( 'option' );
-											option.value = option.text = i;
-											select.add( option );
-										};
+										makeOptions('payments');
 									</script>
 								</select>
 							</td>
