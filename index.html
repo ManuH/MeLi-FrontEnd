@@ -31,24 +31,36 @@
 						<tr> 
 							<td>Quantity </td>
 							<td>
-								<select>
-									<?php
-										for ($i = 1; $i <11; $i++) {
-											echo "<option>" . $i . "</option>";
-										}
-									?>
+								<select id="quantity">
+									<script>
+										var select, i, option;
+
+										select = document.getElementById( 'quantity' );
+
+										for ( i = 1; i <= 10; i += 1 ) {
+											option = document.createElement( 'option' );
+											option.value = option.text = i;
+											select.add( option );
+										};
+									</script>
 								</select>
 							</td>
 						</tr>
 						<tr> 
 							<td>Payments </td>
 							<td>
-								<select>
-									<?php
-										for ($i = 1; $i <13; $i++) {
-											echo "<option>" . $i . "</option>";
-										}
-									?>
+								<select id="payments">
+									<script>
+										var select, i, option;
+
+										select = document.getElementById( 'payments' );
+
+										for ( i = 1; i <= 12; i += 1 ) {
+											option = document.createElement( 'option' );
+											option.value = option.text = i;
+											select.add( option );
+										};
+									</script>
 								</select>
 							</td>
 						</tr>
